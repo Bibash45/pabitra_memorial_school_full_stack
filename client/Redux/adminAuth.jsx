@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const productionUrl="https://school-web-wpxn.onrender.com/api/admin/"
-const devUrl="http://localhost:8080/api/admin/"
+const productionUrl = "https://school-web-wpxn.onrender.com/api/";
+const devUrl = import.meta.env.VITE_API_DEV_URL
 
 export const adminApi = createApi({
 
