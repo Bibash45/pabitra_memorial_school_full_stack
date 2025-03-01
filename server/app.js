@@ -63,11 +63,11 @@ app.use(error);
 //Dynamic folder for deployment in render
 // const __dirname = path.resolve();
 //for deployment in render
-// const pathname_url = __dirname.split(path.sep);
-// pathname_url.pop();
-// const newPath = pathname_url.join(path.sep);
-app.use(express.static(path.join(__dirname, "/client/dist")));
-console.log(__dirname);
+const pathname_url = __dirname.split(path.sep);
+pathname_url.pop();
+const newPath = pathname_url.join(path.sep);
+app.use(express.static(path.join(newPath, "/client/dist")));
+console.log(newPath);
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "client", "dist", "index.html"));
 });
