@@ -8,7 +8,7 @@ import Enroll from "./Enroll";
 // import Marquee from "./Marquee";
 import RaiseATicket from "./RaiseATicket";
 import ReasonToChoose from "./ReasonToChoose";
-import image from "../../assets/Images/AcademicsImages/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg";
+import image from "../../assets/Images/AcademicsImages/school/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg";
 import BreadCrumb from "../../components/layouts/Common/BreadCrumb";
 import PayNow from "./PayNow";
 import AdmissionProces from "./AdmissionProces";
