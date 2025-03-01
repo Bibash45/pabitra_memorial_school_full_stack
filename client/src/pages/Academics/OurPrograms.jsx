@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState, useRef, useEffect } from "react";
 import SidebarAcademics from "../../components/layouts/SidebarAcademics";
 import { motion } from 'framer-motion';
-import PreprimaryImage from "../../assets/Images/AcademicsImages/Preprimary.jpg";
+import PreprimaryImage from "../../assets/Images/AcademicsImages/preprimary.jpg";
 import primaryImage from "../../assets/Images/AcademicsImages/primary.jpg";
 import MiddleSchoolImage from "../../assets/Images/AcademicsImages/Middle.jpg";
 import HighSchoolImage from "../../assets/Images/AcademicsImages/HighSchool.jpg";

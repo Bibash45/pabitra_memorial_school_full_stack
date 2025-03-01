@@ -8,5 +8,8 @@ export default defineConfig({
   plugins: [react()],
   define: {
     'process.env': process.env // Pass environment variables to the client code
-  }
+  },
+  // server: {
+  //   port: 5173, 
+  // },
 });
