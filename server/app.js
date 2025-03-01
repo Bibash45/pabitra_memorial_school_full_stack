@@ -68,7 +68,7 @@ const newPath = pathname_url.join(path.sep);
 app.use(express.static(path.join(newPath, "/client/dist")));
 console.log(newPath);
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "client", "dist", "index.html"));
+  res.sendFile(path.join(newPath, "client", "dist", "index.html"));
 });
 
 cloudinary.config({
