@@ -1,7 +1,8 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const productionUrl = "https://school-web-wpxn.onrender.com/api/";
-const devUrl = process.env.DEV_URL
+const devUrl = import.meta.env.VITE_API_DEV_URL
+console.log(devUrl)
 
 export const myApi = createApi({
        reducerPath: "api",
