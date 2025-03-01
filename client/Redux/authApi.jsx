@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const productionUrl = "https://school-web-wpxn.onrender.com/api/";
-const devUrl = "http://localhost:8080/api/";
+const devUrl = process.env.DEV_URL
 
 export const myApi = createApi({
        reducerPath: "api",
