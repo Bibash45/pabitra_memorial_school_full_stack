@@ -1,8 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const productionUrl = "https://school-web-wpxn.onrender.com/api/";
-const devUrl = import.meta.env.VITE_API_DEV_URL
-
+const productionUrl="https://school-web-wpxn.onrender.com/api/admin/"
+const devUrl=import.meta.env.VITE_API_DEV_URL_ADMIN
 export const adminApi = createApi({
 
 
@@ -121,7 +120,6 @@ getAllGallery: builder.query({
   query: () => ({
     url:`gallery`,
     method: "GET",
-    credentials:"include",
   }),
 
 providesTags:["Gallery"]
