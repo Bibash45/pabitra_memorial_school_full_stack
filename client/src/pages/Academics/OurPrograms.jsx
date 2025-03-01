@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from "react";
 import SidebarAcademics from "../../components/layouts/SidebarAcademics";
 import { motion } from 'framer-motion';
 import PreprimaryImage from "../../assets/Images/AcademicsImages/school/preprimary.jpg";
-import primaryImage from "../../assets/Images/AcademicsImages/school/primary.jpg";
+import primaryImage from "../../assets/Images/AcademicsImages/school/Primary.jpg";
 import MiddleSchoolImage from "../../assets/Images/AcademicsImages/school/Middle.jpg";
 
 const OurPrograms = () => {
