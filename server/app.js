@@ -6,9 +6,8 @@ const cookie = require("cookie-parser");
 const cors = require("cors");
 
 const cloudinary = require("cloudinary")
-const Razorpay = require("razorpay")
 const corsOptions = {
-  origin: ["http://localhost:5173,https://pabitraschool.onrender.com"],
+  origin: ["http://localhost:5173","https://pabitraschool.onrender.com"],
   credentials: true
 };
 
