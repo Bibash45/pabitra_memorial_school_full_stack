@@ -60,6 +60,22 @@ app.use("/api/admin", AdminRoute);
 app.use("/api/payment", PaymentRoute);
 app.use(error);
 
+
+// FOR PRODUCTION
+if (process.env.NODE_ENV == "production") {
+  //set static folder
+  app.use(express.static(path.join(__dirname, "/client/dist")));
+
+    // any route that is not api will be redirected to index.html
+    app.get("*", (req, res) => {
+      res.sendFile(path.resolve(__dirname, "client", "dist", "index.html"));
+    });
+  } else {
+    app.get("/", (req, res) => {
+      res.send("API is running....");
+    });
+  }
+
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_NAME,
   api_key: process.env.CLOUDINARY_API_KEY,
@@ -73,6 +89,8 @@ app.get("/api/getKey", (req, res) => {
   })
 
 })
+
+
 
 // Database connection
 dbConnection(process.env.URI);
