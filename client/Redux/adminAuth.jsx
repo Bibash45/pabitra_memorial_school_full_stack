@@ -121,6 +121,7 @@ getAllGallery: builder.query({
   query: () => ({
     url:`gallery`,
     method: "GET",
+    credentials:"include",
   }),
 
 providesTags:["Gallery"]
