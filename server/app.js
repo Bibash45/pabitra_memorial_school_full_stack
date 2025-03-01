@@ -8,7 +8,7 @@ const cors = require("cors");
 const cloudinary = require("cloudinary")
 const Razorpay = require("razorpay")
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  origin: ["http://localhost:5173,https://pabitraschool.onrender.com"],
   credentials: true
 };
 
