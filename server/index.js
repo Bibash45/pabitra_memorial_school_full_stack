@@ -61,7 +61,7 @@ app.use("/api/payment", PaymentRoute);
 app.use(error);
 
 //Dynamic folder for deployment in render
-const __dirname = path.resolve();
+// const __dirname = path.resolve();
 //for deployment in render
 app.use(express.static(path.join(__dirname, "/frontend/dist")));
 
