@@ -18,7 +18,7 @@ const Footer = () => {
     { title: "Admissions", to: "/admissions" },
     { title: "Academics", to: "/academics" },
     // { title: "Parents Portal", to: "/parents-portal" },
-    { title: "Quick Links", to: "/FilesContainer" },
+    // { title: "Quick Links", to: "/FilesContainer" },
   ];
   const links2 = [
     // { title: "Calender & Schedules", to: "/calendar" },
@@ -108,7 +108,7 @@ const Footer = () => {
           
       <div className="space-y-2 md:flex items-center justify-between mt-5">
         <p>
-          &copy; Pabitra Memorial School 2024 | All rights reserved | Legal Notice.
+          &copy; Pabitra Memorial School 2025 | All rights reserved | Legal Notice.
         </p>
         <p>Developed by <a
             href="https://webstorlabs.com"

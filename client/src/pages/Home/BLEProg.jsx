@@ -4,7 +4,7 @@ import Footer from "../../components/layouts/Footer";
 
 import CarouselSliderCBSE from './CarouselSliderCBSE';
 
-const CBSEProg = () => {
+const BLEProg = () => {
 
   const learningAreas = [
     {
@@ -97,4 +97,4 @@ const CBSEProg = () => {
  );
 };
 
-export default CBSEProg;
+export default BLEProg;

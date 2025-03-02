@@ -19,7 +19,7 @@ const programmeData = [
     imageSrc: PYPImage,
     alt: "BLE Image",
     title: "BLE",
-    link: "./CBSEProg",
+    link: "./BLEProg",
     buttonText: "The BLE Programme"
   }
 ];

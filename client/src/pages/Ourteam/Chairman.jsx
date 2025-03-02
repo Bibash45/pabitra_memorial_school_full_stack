@@ -9,10 +9,10 @@ const Chairman = () => {
           Founder & Chairman
         </h2>
         <OurTeamCard
-          name="Dr. Joseph K Thomas"
+          name="Mr. Basanta Bhandari"
           position={"Founder & Chairman"}
           quote={
-            "An army veteran, acorporate leader, an educationist and a social entrepreneur. His journey from the battle ground to the class room has been an illustrious one. A great visionary and an educationist at heart, Pabitra Memorial School, Mysuru is the fulfilment of his dream. He is the recipient of 4 National Awards, International Awards and numerous prestigious school Awards. The most recent ones being 'Gem of India Award', 'International Achiever's Award for Educational Excellence' and 'International Leadership Innovation Excellence Award'. When you ask him which is closest to his heart he says The honours I am most proud of are the ones awarded to my school such as being ranked No.1 School in Mysore by CBSE and Education Today and also knowing that I am making a difference in the lives of school children is the greatest reward."
+            "An army veteran, acorporate leader, an educationist and a social entrepreneur. His journey from the battle ground to the class room has been an illustrious one. A great visionary and an educationist at heart, Pabitra Memorial School, PMEBS is the fulfilment of his dream. He is the recipient of 4 National Awards, International Awards and numerous prestigious school Awards. The most recent ones being 'Gem of Nepal Award', 'International Achiever's Award for Educational Excellence' and 'International Leadership Innovation Excellence Award'. When you ask him which is closest to his heart he says The honours I am most proud of are the ones awarded to my school such as being ranked No.1 School in PMEBS by BLE and Education Today and also knowing that I am making a difference in the lives of school children is the greatest reward."
           }
           // education={"MA., MBA., MDBA., MRICS (London) Ph.D (Management)"}
           image={chairman}

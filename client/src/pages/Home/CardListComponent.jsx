@@ -7,7 +7,7 @@ const CardListComponent = () => {
   const cardsData = [
     {
       id:1,
-      link: 'CbseCurriculum',
+      link: 'BleCurriculum',
       imageSrc: image1,
       title: 'Curriculum Overview',
       description: ' PMEBS curriculum blends academics, hands-on learning, and innovative teaching.',

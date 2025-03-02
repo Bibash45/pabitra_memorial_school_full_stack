@@ -39,10 +39,10 @@ const Library = React.lazy(() => import("./pages/Facilities/Library"));
 const Music = React.lazy(() => import("./pages/Facilities/Music"));
 const Art = React.lazy(() => import("./pages/Facilities/art"));
 // const ScoutsAndGuide = React.lazy(() => import("./pages/Facilities/ScoutsAndGuide"));
-const CbseCurriculum = React.lazy(() => import("./pages/Home/CbseCurriculum"));
+const CbseCurriculum = React.lazy(() => import("./pages/Home/BleCurriculum"));
 const HolisticEdu = React.lazy(() => import("./pages/Home/HolisticEdu"));
 const Awards = React.lazy(() => import("./pages/Home/Awards"));
-const CBSEProg = React.lazy(() => import("./pages/Home/CBSEProg"));
+const BLEProg = React.lazy(() => import("./pages/Home/BLEProg"));
 const EarlyProgram = React.lazy(() => import("./pages/Home/EarlyProgram"));
 const KnowMore = React.lazy(() => import("./pages/Home/KnowMore"));
 const JoinOurTeam = React.lazy(() => import("./pages/Ourteam/JoinOurTeam"));
@@ -132,13 +132,13 @@ const App = () => {
           <Route path="/Library" element={<Library />} />
           <Route path="/Music" element={<Music />} />
           <Route path="/Art" element={<Art />} />
-          <Route path="/CbseCurriculum" element={<CbseCurriculum />} />
+          <Route path="/BleCurriculum" element={<CbseCurriculum />} />
           <Route path="/HolisticEdu" element={<HolisticEdu />} />
           {/* <Route path="/ScoutsAndGuide" element={<ScoutsAndGuide />} /> */}
           <Route path="/Awards" element={<Awards />} />
-          <Route path="/CBSEProg" element={<CBSEProg />} />
+          <Route path="/BLEProg" element={<BLEProg />} />
           <Route path="/EarlyProgram" element={<EarlyProgram />} />
-          <Route path="/FilesContainer" element={<FilesContainer />} />
+          {/* <Route path="/FilesContainer" element={<FilesContainer />} /> */}
           <Route path="/KnowMore" element={<KnowMore />} />
           {/* <Route path="/payment" element={<Payment />} /> */}
           {/* <Route path="/paymentSuccess" element={<PaymentSuccess/>} /> */}

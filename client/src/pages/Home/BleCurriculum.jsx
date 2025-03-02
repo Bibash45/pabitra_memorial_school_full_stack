@@ -3,7 +3,7 @@ import heroimg from "../../assets/Images/HomeImages/Curriculum/cbse.jpg";
 // import pdf from "../../assets/Images/HomeImages/Curriculum/CbseBooks.pdf";
 import Breadcrumbs from "@mui/material/Breadcrumbs";
 import Link from "@mui/material/Link";
-const CbseCurriculum = () => {
+const BleCurriculum = () => {
   // Function to handle download button click
   // const handleDownload = () => {
   //   // Replace "path/to/your/pdf/file.pdf" with the actual path to your PDF file
@@ -29,10 +29,10 @@ const CbseCurriculum = () => {
           <Link
             underline="hover"
             color="text.primary"
-            href="/CbseCurriculum"
+            href="/BleCurriculum"
             aria-current="page"
           >
-            CBSE Curriculum
+            BLE Curriculum
           </Link>
         </Breadcrumbs>
       </div>
@@ -156,7 +156,7 @@ const CbseCurriculum = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 pb-10">
         <div className="flex justify-center items-center">
           <p className="text-lg font-semibold text-secondary mr-4">
-            To know more about the CBSE books prescribed, download now:
+            To know more about the BLE books prescribed, download now:
           </p>
           <button
             className="bg-secondary hover:bg-primary-dark text-white font-semibold py-2 px-4 rounded-lg shadow-md"
@@ -170,4 +170,4 @@ const CbseCurriculum = () => {
   );
 };
 
-export default CbseCurriculum;
+export default BleCurriculum;
