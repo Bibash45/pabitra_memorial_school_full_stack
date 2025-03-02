@@ -48,10 +48,8 @@ const HomeEnrollmentsCard = ({ user, index, handleOpen }) => {
 
                             <InfoItem
                                    icon={<FaBirthdayCake />}
-                                   label="Date"
-                                   value={new Date(
-                                          user?.date,
-                                   ).toLocaleDateString()}
+                                   label="DOB"
+                                   value={user.dob}
                             />
 
                             <InfoItem
