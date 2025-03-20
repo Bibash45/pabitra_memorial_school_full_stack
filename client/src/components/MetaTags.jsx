@@ -4,15 +4,10 @@ import { useParams } from "react-router-dom";
 
 const MetaTags = () => {
   const { page } = useParams();
-  const [meta, setMeta] = useState({
-    title: "Pabitra School",
-    description: "Pabitra School",
-    image: "https://pabitraschool.onrender.com/assets/pabitralogo1-CAlD7-Tg.png",
-    url: window.location.href,
-  });
+  const [meta, setMeta] = useState(null);
 
   useEffect(() => {
-    fetch(`https://pabitraschool.onrender.com/api/meta${page}`)
+    fetch(`https://pabitraschool.onrender.com/api/meta/${page}`)
       .then((res) => res.json())
       .then((data) => {
         setMeta(data);
@@ -20,6 +15,7 @@ const MetaTags = () => {
       .catch((err) => console.error("Error fetching meta tags:", err));
   }, [page]);
 
+  if (!meta) return null;
   return (
     <Helmet>
       <title>{meta.title}</title>
