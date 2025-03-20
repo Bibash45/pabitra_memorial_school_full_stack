@@ -5,11 +5,14 @@ import Learning from '../../assets/Images/FacilitiesImages/Amenities/learning.jp
 import Solving from '../../assets/Images/FacilitiesImages/Amenities/solving.jpg';
 import Resources from '../../assets/Images/FacilitiesImages/Amenities/resources.jpg';
 import Footer from "../../components/layouts/Footer";
+import MetaTags from '../../components/MetaTags';
 
 
 
 const Sports = () => {
   return (
+    <>
+    <MetaTags />
     <div className="min-h-screen flex flex-col pt-11 md:pt-0">
       {/* Hero Section */}
       <div className="relative h-[330px] lg:h-[550px]">
@@ -125,7 +128,7 @@ const Sports = () => {
 </div>
       <Footer />
     </div>
-  
+  </>
   );
 };
 

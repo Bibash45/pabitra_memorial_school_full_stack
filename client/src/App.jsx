@@ -19,6 +19,7 @@ import { useSelector } from "react-redux";
 import Events from "./pages/Home/Events";
 import News from "./pages/Home/News";
 import Gallery from "./pages/Home/Gallery";
+import MetaTags from "./components/MetaTags";
 const Home = React.lazy(() => import("./pages/Home/Home"));
 const Academics = React.lazy(() => import("./pages/Academics/Academics"));
 const Admissions = React.lazy(() => import("./pages/Admissions/Admissions"));
@@ -94,6 +95,7 @@ const App = () => {
       <ScrollToTop />
       <Suspense fallback={<PageLoader/>}>
         <Routes>
+        <Route path="/:page" element={<MetaTags />} />
           <Route path="/" element={<Home />} />
           <Route path="/academics" element={<Academics />} />
           <Route path="/admissions" element={<Admissions />} />

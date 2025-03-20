@@ -21,6 +21,8 @@ const Enrollment = require("./routes/Enrollment");
 const UserRoute = require("./routes/UserRoute");
 const AdminRoute = require("./routes/adminRoutes");
 const PaymentRoute = require("./routes/paymentRoute");
+const DynamicMeta = require("./routes/dynamicMeta");
+
 const {
   dbConnection
 } = require("./config/dbConnections");
@@ -57,6 +59,7 @@ app.use("/api", UserRoute);
 app.use("/api", Enrollment);
 app.use("/api/admin", AdminRoute);
 app.use("/api/payment", PaymentRoute);
+app.use("/",DynamicMeta)
 app.use(error);
 
 //Dynamic folder for deployment in render
