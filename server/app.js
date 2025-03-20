@@ -59,7 +59,7 @@ app.use("/api", UserRoute);
 app.use("/api", Enrollment);
 app.use("/api/admin", AdminRoute);
 app.use("/api/payment", PaymentRoute);
-app.use("/",DynamicMeta)
+app.use("/api",DynamicMeta)
 app.use(error);
 
 //Dynamic folder for deployment in render

@@ -1,4 +1,3 @@
-import React from 'react';
 import HeroImage from '../../assets/Images/FacilitiesImages/Amenities/transport.jpg';
 import Tech from '../../assets/Images/FacilitiesImages/Amenities/tech.jpg';
 import Learning from '../../assets/Images/FacilitiesImages/Amenities/learning.jpg';
@@ -6,7 +5,6 @@ import Solving from '../../assets/Images/FacilitiesImages/Amenities/solving.jpg'
 import Resources from '../../assets/Images/FacilitiesImages/Amenities/resources.jpg';
 import Footer from "../../components/layouts/Footer";
 import MetaTags from '../../components/MetaTags';
-
 
 
 const Sports = () => {

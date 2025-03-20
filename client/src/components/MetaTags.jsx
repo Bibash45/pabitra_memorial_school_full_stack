@@ -12,7 +12,7 @@ const MetaTags = () => {
   });
 
   useEffect(() => {
-    fetch(`https://pabitraschool.onrender.com/${page}`)
+    fetch(`https://pabitraschool.onrender.com/api/meta${page}`)
       .then((res) => res.json())
       .then((data) => {
         setMeta(data);
