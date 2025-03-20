@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
-import { useParams } from "react-router-dom";
 
-const MetaTags = () => {
-  const { page } = useParams();
+const MetaTags = (page) => {
+  console.log(page,"<-------------------- Page")
   const [meta, setMeta] = useState(null);
 
   useEffect(() => {
+    if (!page) return; 
     fetch(`https://pabitraschool.onrender.com/api/meta/${page}`)
       .then((res) => res.json())
       .then((data) => {

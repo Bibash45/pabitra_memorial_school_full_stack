@@ -10,7 +10,7 @@ import MetaTags from '../../components/MetaTags';
 const ComputerPage = () => {
   return (
     <>
-    <MetaTags />
+    <MetaTags page='ComputerPage' />
 
     <div className="min-h-screen flex flex-col pt-11 md:pt-0">
       {/* Hero Section */}

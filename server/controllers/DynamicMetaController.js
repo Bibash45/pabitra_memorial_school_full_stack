@@ -9,7 +9,7 @@ const metaTags = {
         title: "sports | Pabitra Memorial School",
         description: "Explore the Science Lab at Pabitra Memorial School",
         image: "https://pabitraschool.onrender.com/assets/solving-ecHi7LiK.jpg",
-        url: "https://pabitraschool.onrender.com/ComputerPage",
+        url: "https://pabitraschool.onrender.com/sports",
     },
 };
 exports.dynamic_Meta = (req, res) => {
@@ -17,7 +17,7 @@ exports.dynamic_Meta = (req, res) => {
     const {
         page
     } = req.params;
-    const meta = metaTags[page] || metaTags["computer-lab"];
+    const meta = metaTags[page] || metaTags["ComputerPage"];
     return res.status(200).json(meta)
 
 }
