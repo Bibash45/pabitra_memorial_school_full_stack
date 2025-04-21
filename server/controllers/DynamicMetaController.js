@@ -1,6 +1,6 @@
 const metaTags = {
     "ComputerPage": {
-        title: "ComputerLab | Pabitra Memorial School",
+        title: "ComputerLabs | Pabitra Memorial School",
         description: "Learn with ComputerLab at Pabitra Memorial School",
         image: "https://pabitraschool.onrender.com/assets/learning-CV-_t3La.jpg",
         url: "https://pabitraschool.onrender.com/ComputerPage",

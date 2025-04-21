@@ -10,7 +10,26 @@ import MetaTags from '../../components/MetaTags';
 const ComputerPage = () => {
   return (
     <>
-    <MetaTags page='ComputerPage' />
+    {/* <MetaTags page='ComputerPage' /> */}
+
+
+       <Helmet>
+      <title>Facilities | Pabitra Memorial School</title>
+      <meta
+        name="description"
+        content="Discover Pabitra Memorial School's outstanding facilities designed for academic excellence, including modern classrooms, labs, library, and sports facilities."
+      />
+      <link rel="cannonical" href="/Facilites" />
+    
+    
+      <meta property="og:title" content="Computer | PMEBS" />
+      <meta property="og:description" content="computer" />
+      <meta property="og:image" content="https://pabitraschool.onrender.com/assets/learning-CV-_t3La.jpg" />
+      <meta property="og:url" content="https://pabitraschool.onrender.com/" />
+      <meta property="og:type" content="website" />
+      <meta property="fb:app_id" content="1940546513140752" />
+    
+    </Helmet>
 
     <div className="min-h-screen flex flex-col pt-11 md:pt-0">
       {/* Hero Section */}

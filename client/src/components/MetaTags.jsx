@@ -16,6 +16,8 @@ const MetaTags = (page) => {
   }, [page]);
 
   if (!meta) return null;
+
+  console.log(meta,"<--------------meta")
   return (
     <Helmet>
       <title>{meta.title}</title>
