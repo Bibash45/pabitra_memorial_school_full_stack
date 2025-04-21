@@ -6,6 +6,7 @@ import Solving from '../../assets/Images/FacilitiesImages/Amenities/solving.jpg'
 import Resources from '../../assets/Images/FacilitiesImages/Amenities/resources.jpg';
 import Footer from "../../components/layouts/Footer";
 import MetaTags from '../../components/MetaTags';
+import { Helmet } from 'react-helmet';
 
 const ComputerPage = () => {
   return (
@@ -19,13 +20,12 @@ const ComputerPage = () => {
         name="description"
         content="Discover Pabitra Memorial School's outstanding facilities designed for academic excellence, including modern classrooms, labs, library, and sports facilities."
       />
-      <link rel="cannonical" href="/Facilites" />
     
-    
+      <link rel="canonical" href="https://pabitraschool.onrender.com/ComputerPage" />
       <meta property="og:title" content="Computer | PMEBS" />
       <meta property="og:description" content="computer" />
       <meta property="og:image" content="https://pabitraschool.onrender.com/assets/learning-CV-_t3La.jpg" />
-      <meta property="og:url" content="https://pabitraschool.onrender.com/" />
+      <meta property="og:url" content="https://pabitraschool.onrender.com/ComputerPage" />
       <meta property="og:type" content="website" />
       <meta property="fb:app_id" content="1940546513140752" />
     

@@ -18,13 +18,12 @@ const Facilities = () => {
     name="description"
     content="Discover Pabitra Memorial School's outstanding facilities designed for academic excellence, including modern classrooms, labs, library, and sports facilities."
   />
-  <link rel="cannonical" href="/Facilites" />
+  <link rel="canonical" href="https://pabitraschool.onrender.com/facilities" />
 
-
-  <meta property="og:title" content="Sports | PMEBS" />
-  <meta property="og:description" content="sports" />
-  <meta property="og:image" content="https://pabitraschool.onrender.com/assets/tech-D2FKgPbm.jpg" />
-  <meta property="og:url" content="https://pabitraschool.onrender.com/" />
+  <meta property="og:title" content="Facilities | Pabitra Memorial School" />
+  <meta property="og:description" content="Discover our state-of-the-art educational facilities including modern classrooms, labs, and sports complex." />
+  <meta property="og:image" content="https://pabitraschool.onrender.com/assets/img2-CmsHh9hn.jpg" />
+  <meta property="og:url" content="https://pabitraschool.onrender.com/sports" />
   <meta property="og:type" content="website" />
   <meta property="fb:app_id" content="1940546513140752" />
 
